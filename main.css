@@ -9,3 +9,34 @@ div {
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
+
+
+/* animation: spin 2s linear infinite; this applies the animation to the spinner */
+#red {
+  border-top-color:  #f00;
+}
+  
+#orange {
+  border-top-color:  #ffa500;
+  animation-delay: 0.2s; /* this delays the start of the animation */
+}
+#yellow {
+  border-top-color :  #ff0 ;
+  animation-delay: 0.4s; /* this delays the start of the animation */
+}
+#green {
+  border-top-color: #00bc3f  ;
+  animation-delay: 0.6s; /* this delays the start of the animation */
+}
+#blue {
+  border-top-color:  #06f ;
+  animation-delay: 0.8s; /* this delays the start of the animation */
+}#indigo {
+  border-top-color:   #8a2be2;
+  animation-delay: 1s; /* this delays the start of the animation */
+}
+
+#violet {
+  border-top-color:   #d300c9 ;
+  animation-delay: 1.2s; /* this delays the start of the animation */
+}
